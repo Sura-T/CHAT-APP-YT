@@ -30,7 +30,10 @@ export const sendMessage = async (req,res) =>{
         }
 
         // SOCKET IO FUNCTIONALITY
-
+const receiverSocketId = getReceiverSocketId(receiverId);
+if(receiverSocketId) {
+    io.to(receiverSocketId).emit('newMessage', newMessage);
+}
 
         // await conversation.save();
         // await newMessage.save();
