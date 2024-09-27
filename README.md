@@ -24,4 +24,4 @@ This is a real-time chat application built using the MERN stack (MongoDB, Expres
 
 Acknowledgments
 This project was inspired by various YouTube tutorials. Special thanks to the creators for their valuable content.
-## Especially to As a Programmer.
+Especially to As a Programmer youtube channel
